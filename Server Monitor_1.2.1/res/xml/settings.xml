@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/title_settings" android:key="server_monitor_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_start_auto" android:key="startOnBoot" android:defaultValue="true" android:summaryOn="@string/pref_start_auto_on" android:summaryOff="@string/pref_start_auto_off" />
+    <EditTextPreference android:numeric="integer" android:title="@string/pref_poll_freq" android:key="pollFrequency" android:summary="@string/pref_poll_freq_sum" android:defaultValue="15" android:dialogTitle="@string/pref_poll_freq" android:dialogMessage="@string/pref_poll_freq_dia" />
+    <CheckBoxPreference android:title="@string/pref_enable_sound" android:key="enableSound" android:defaultValue="true" android:summaryOn="@string/pref_enable_sound_on" android:summaryOff="@string/pref_enable_sound_off" />
+    <CheckBoxPreference android:title="@string/pref_enable_vibration" android:key="enableVibrate" android:defaultValue="true" android:summaryOn="@string/pref_enable_vibration_on" android:summaryOff="@string/pref_enable_vibration_off" />
+</PreferenceScreen>

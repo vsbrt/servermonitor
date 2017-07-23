@@ -1,0 +1,15 @@
+version: 2.0.1
+apkFileName: Server Monitor_1.2.1.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '4'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '7'
+  versionName: '@string/version'
+compressionType: false
+sharedLibrary: false

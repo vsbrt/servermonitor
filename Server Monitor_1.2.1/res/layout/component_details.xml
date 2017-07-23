@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:sm="http://schemas.android.com/apk/res/com.odinnet.servermonitor">
+    <com.admob.android.ads.AdView android:gravity="right" android:id="@id/adView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" sm:backgroundColor="#ff000000" sm:primaryTextColor="#ffffffff" sm:secondaryTextColor="#ffcccccc" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/adView">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/det_server" />
+            <TextView android:textSize="14.0dip" android:id="@id/txtServerName" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/det_component" />
+            <TextView android:textSize="14.0dip" android:id="@id/txtComponentName" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/det_host" />
+            <TextView android:textSize="14.0dip" android:id="@id/txtHost" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/det_con_type" />
+            <TextView android:textSize="14.0dip" android:id="@id/txtConnectionType" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/det_status" />
+            <TextView android:textSize="14.0dip" android:id="@id/txtStatus" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/det_update" />
+            <TextView android:textSize="14.0dip" android:id="@id/txtLastUpdated" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/det_message" />
+            <TextView android:textSize="14.0dip" android:id="@id/txtStatusMessage" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="2" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

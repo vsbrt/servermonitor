@@ -1,0 +1,68 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: JJKhDsgZMJeARrIYuuZqbixwLlE=
+Created-By: 1.6.0_21 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: E6DtukrtLf2i0m7ADC0mFbV0Wjc=
+
+Name: res/layout/server_row.xml
+SHA1-Digest: Z6tPS4/oUxsZYWuJEJIutnvxdPA=
+
+Name: res/layout/add_tcp_component.xml
+SHA1-Digest: hsSrTDvqAs1wlZSWTETFTdQJ8kk=
+
+Name: res/layout/edit_tcp_component.xml
+SHA1-Digest: vLTZEsBrr4VS6cpWj/t5JIWq7SM=
+
+Name: res/xml/settings.xml
+SHA1-Digest: s+b5ZVReaYnf1VL5vXU55qbV+WQ=
+
+Name: resources.arsc
+SHA1-Digest: QYWRQF2TuZFB0p2Pul+k92Gb3lo=
+
+Name: classes.dex
+SHA1-Digest: 1BrCw6NRnvWzUxYhYimSp2gsc7U=
+
+Name: res/menu/main_menu.xml
+SHA1-Digest: MsbCXQDkchdtDK7ASvvgHUHIB58=
+
+Name: res/layout/add_ssh_component.xml
+SHA1-Digest: dn+1CvpkkXwSY1cPIfij6ddkr+Y=
+
+Name: res/layout/component_row.xml
+SHA1-Digest: 1BqbB3prI1FVNCT7NwWcIhSpV7I=
+
+Name: res/layout/component_details.xml
+SHA1-Digest: nYAFANHzI0eHRRPIi27k9NpsuNs=
+
+Name: res/layout/main.xml
+SHA1-Digest: lSF+HOmX1o3o7/n9mwu34DVQEHA=
+
+Name: res/layout/select_connection.xml
+SHA1-Digest: 0l4o69GNU0rrm4nYIqDxsdA/5LU=
+
+Name: AndroidManifest.xml
+SHA1-Digest: g9uC+t/UvOGZI9esHZb6PpE48h0=
+
+Name: res/drawable/server_bg.9.png
+SHA1-Digest: Fsk4JurhNix0La+poLx101dFauE=
+
+Name: res/layout/add_server.xml
+SHA1-Digest: fOJVyDrGHUVJlj8GCKCx9QhpUWA=
+
+Name: res/drawable/icon.png
+SHA1-Digest: mFxlLXDd0uApsKstBhQcrK64VAI=
+
+Name: res/menu/server_context_menu.xml
+SHA1-Digest: h9NNDM+aBfyi0hrq1z7sj2XJcls=
+
+Name: res/layout/edit_server.xml
+SHA1-Digest: wPvw7lxb5b81cVfyCFzAnhb6evk=
+
+Name: res/layout/about.xml
+SHA1-Digest: H1yYLPxvXJ5GsZaE+oEdkSdnE+M=
+
+Name: res/layout/edit_ssh_component.xml
+SHA1-Digest: XNO1aRPpvSHcv+aqm2kB6jrxg24=
+
+Name: res/menu/component_context_menu.xml
+SHA1-Digest: oGb9880ooL+V38g+SThKEKQaQgo=
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_root" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:id="@id/txtAppName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+    <TextView android:id="@id/txtVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    <TextView android:autoLink="web" android:id="@id/txtLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="http://www.odinnet.ca" />
+    <TextView android:id="@id/txtCopyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="©2010 Sebastian Serafin" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:sm="http://schemas.android.com/apk/res/com.odinnet.servermonitor">
+    <com.admob.android.ads.AdView android:id="@id/adView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" sm:backgroundColor="#ff000000" sm:primaryTextColor="#ffffffff" sm:secondaryTextColor="#ffcccccc" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/adView">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/con_sel_intro" />
+            <Button android:id="@id/btnTCPConnection" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tcp" />
+            <Button android:id="@id/btnSSHConnection" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tcp_ssh" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

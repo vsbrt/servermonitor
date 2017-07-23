@@ -1,0 +1,66 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_21 (Sun Microsystems Inc.)
+
+Name: res/layout/server_row.xml
+SHA1-Digest: 3M046RgD6choXqVafoN0Kl4PYak=
+
+Name: res/layout/add_tcp_component.xml
+SHA1-Digest: /y+CWeZFMfnDVMjbykQoo4dQ6Gw=
+
+Name: res/layout/edit_tcp_component.xml
+SHA1-Digest: yoSRbx9zmacgpllphxO9zeApNrQ=
+
+Name: res/xml/settings.xml
+SHA1-Digest: Pl1cI3n1g0bCwE9aAa/g/2ZWFd8=
+
+Name: resources.arsc
+SHA1-Digest: zst3JLpj6uhXVzAGEXpdl6O8HCo=
+
+Name: classes.dex
+SHA1-Digest: QtKsuTgUcvortOTQ09p93Xo7iek=
+
+Name: res/menu/main_menu.xml
+SHA1-Digest: fS7qZ7AEUpA8LoeArp7OptwStug=
+
+Name: res/layout/add_ssh_component.xml
+SHA1-Digest: 85IeQws77ibCQfreKE62MRly/wQ=
+
+Name: res/layout/component_row.xml
+SHA1-Digest: uEKnKE/VNRs4adwdzpOTQR+JUCk=
+
+Name: res/layout/component_details.xml
+SHA1-Digest: qRvxPUFSD5xTtplan/3zWGWTLc4=
+
+Name: res/layout/main.xml
+SHA1-Digest: q68Oge2vl6TdqwRZ914TQRDQxiw=
+
+Name: res/layout/select_connection.xml
+SHA1-Digest: LWS50OEo7OwDPgzovW084OuwEdY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: cwQbHOjNxxU08WQz1clblMZ8faU=
+
+Name: res/drawable/server_bg.9.png
+SHA1-Digest: dbZbkQ0jZQaHOFDvk+uDz4ZQkFk=
+
+Name: res/drawable/icon.png
+SHA1-Digest: fejXw5HSsnZ4tEF5yQEgqVGDWaM=
+
+Name: res/layout/add_server.xml
+SHA1-Digest: Apv6gGM4sS9HhuTWxKbcDC5/9RM=
+
+Name: res/menu/server_context_menu.xml
+SHA1-Digest: VfpKSwUw/uvOz3Fw2scKZgzrmA4=
+
+Name: res/layout/edit_server.xml
+SHA1-Digest: 8iduAfi5cgIGE1mfiSIT0aJD1OA=
+
+Name: res/layout/about.xml
+SHA1-Digest: kMfLyCvGF9K4OrPpCRf4Ko0DUoI=
+
+Name: res/layout/edit_ssh_component.xml
+SHA1-Digest: byrRmPhg+AQfHsCc8G+EcROyPWo=
+
+Name: res/menu/component_context_menu.xml
+SHA1-Digest: 2G6HWbe1zlUxcG6tZUn4GfKnHJM=
+

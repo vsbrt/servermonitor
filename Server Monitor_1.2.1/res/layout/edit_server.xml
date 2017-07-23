@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:sm="http://schemas.android.com/apk/res/com.odinnet.servermonitor">
+    <com.admob.android.ads.AdView android:id="@id/adView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" sm:backgroundColor="#ff000000" sm:primaryTextColor="#ffffffff" sm:secondaryTextColor="#ffcccccc" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/adView">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/server_name" />
+            <EditText android:id="@id/txtServerName" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/host_name" />
+            <EditText android:id="@id/txtHost" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <CheckBox android:id="@id/chkPing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ping" />
+            <Button android:id="@id/btnSaveServer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/save_server" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

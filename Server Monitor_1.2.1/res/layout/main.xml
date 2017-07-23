@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:sm="http://schemas.android.com/apk/res/com.odinnet.servermonitor">
+    <com.admob.android.ads.AdView android:id="@id/adView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" sm:backgroundColor="#ff000000" sm:primaryTextColor="#ffffffff" sm:secondaryTextColor="#ffcccccc" />
+    <ExpandableListView android:id="@id/lstServerList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/adView" android:layout_alignParentTop="true" />
+</RelativeLayout>
